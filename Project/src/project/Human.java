@@ -1,13 +1,8 @@
 package project;
 
-public class Human {
+abstract class Human {
+    protected int id;
     protected String fullName;
-    protected String dateOfBirthday;
+    protected String dateOfBirth;
     protected String gender;
-
-    public Human(String fullName, String dateOfBirthday, String gender) {
-        this.fullName = fullName;
-        this.dateOfBirthday = dateOfBirthday;
-        this.gender = gender;
-    }
 }
